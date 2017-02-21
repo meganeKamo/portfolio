@@ -3,8 +3,10 @@ $(function(){
 	var bar1 = $("#bar1");
 	var bar2 = $("#bar2");
 	var bar3 = $("#bar3");
-  $("html, body").animate({scrollTop:0},1,function(){
-			$("html, body").css("overflow","hidden");
+  $("html, body").animate({scrollTop:0},function(){
+    setTimeout(function(){
+      $("html, body").css("overflow","hidden");
+    },100);
   });
   setTimeout(function(){
     bar1.animate({"marginLeft":"50vw"},400,"easeOutQuart");
