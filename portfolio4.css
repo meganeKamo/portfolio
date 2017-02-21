@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+.fixedBottom {
+  position: fixed;
+  bottom: 0;
+}
+.fixedTop {
+  position: fixed;
+  top: 0;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+}
+#dummy {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+/*----------------------------------------------------------------loading-----*/
+#loading {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 500;
+}
+#loading h2 {
+  position: absolute;
+  top: 5vh;
+  width: 100vw;
+  font-size: 6vw;
+  margin: 0
+}
+#loading p {
+  position: absolute;
+  bottom: 30vh;
+  width: 100vw;
+  font-size: 2vw;
+  margin: 0;
+
+}
+#bar1 {
+  position: absolute;
+  top: 30vh;
+  left: 22.5vw;
+  width: 5vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  background: #9700D6;
+
+}
+#bar2 {
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  width: 10vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  background: #DD9C16;
+}
+#bar3 {
+  position: absolute;
+  top: 50vh;
+  left: 17.5vw;
+  width: 15vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  background: #10A360;
+
+}
+
+/*---------------------------------------------------------------box----------*/
+#box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 10vw;
+  width: 10vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  background-color: #B20047;
+  cursor: pointer;
+  z-index: 90;
+}
+#box1 h5 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+#box1:hover {
+  opacity: 0.7;
+  letter-spacing: 3px;
+}
+#box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 20vw;
+  width: 10vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  background-color: #0D6B7F;
+  cursor: pointer;
+  z-index: 90;
+}
+#box2 h5 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+}
+#box2:hover {
+  opacity: 0.7;
+  letter-spacing: 3px;
+}
+#box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 30vw;
+  width: 10vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  background-color: #BFAF13;
+  cursor: pointer;
+  z-index: 90;
+}
+#box3 h5 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+}
+#box3:hover {
+  opacity: 0.7;
+  letter-spacing: 3px;
+}
+#box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 40vw;
+  width: 10vw;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+  background-color: #6f6f6f;
+  cursor: pointer;
+  z-index: 90;
+}
+#box4 h5 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+}
+#box4:hover {
+  opacity: 0.7;
+  letter-spacing: 3px;
+}
+/*----------------------------------------------------------------icon--------*/
+#icon {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  z-index: 60;
+}
+#icon span {
+  position: absolute;
+  top: 4vh;;
+  right: 5vw;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  transform: rotate(45deg);
+  border-color: rgb(95, 95, 95);
+}
+/*---------------------------------------------------------------head---------*/
+#headA {
+  top: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(60, 60, 60);
+  z-index: 45;
+}
+#headB {
+  top: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(60, 60, 60);
+  z-index: 35;
+}
+/*---------------------------------------------------------------home---------*/
+#home {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(60, 60, 60);
+  z-index: 60;
+}
+#home h1 {
+  position: absolute;
+  margin: 0;
+  margin-left: 10vw;
+  margin-top: 30vh;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-size: 8vw;
+}
+/*-------------------------------------------------------profile--------------*/
+#profile {
+  top: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0px 4px 10px rgb(71, 71, 71);
+  z-index: 40;
+}
+#profile h2 {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  padding: 0;
+  margin: 0;
+  font-size: 7vw;
+  text-align: center;
+  margin: 0;
+}
+#profile dt {
+  position: absolute;
+  top: 30vh;;
+  left: 45vw;
+  line-height: 2.0;
+  font-size: 1.5vw;
+}
+#profile i {
+  position: absolute;
+  bottom: 15vh;
+  left: 45vw;
+  cursor: pointer;
+}
+#profile i li {
+  text-decoration: none;
+  list-style: none;
+}
+#profile i a {
+  text-decoration: none;
+  color: rgb(47, 70, 150);
+
+
+}
+/*--------------------------------------------------skill---------------------*/
+#skill {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(230, 230, 230);
+  box-shadow: 0px 4px 10px rgb(71, 71, 71);
+  z-index: 30;
+}
+#skill h2 {
+  letter-spacing: 0.5vw;
+  text-align: center;
+  margin: 0;
+  padding-top: 8vh;
+  font-size: 7vw;
+}
+#skill h3 {
+  position: absolute;
+  left: 10vw;
+  top: 28vh;
+  height: 60vh;
+  margin: 0;
+  text-align: right;
+  font-size: 4vw;
+  line-height: 20vh;
+}
+/*--------------------------------------------------------graph---------------*/
+#graph {
+  position: absolute;
+  top: 28vh;
+  left: 35vw;
+  width: 50vw;
+  height: 60vh;
+  border: 3px solid;
+  background-color: rgb(222, 222, 222);
+  box-shadow: 2px 4px 8px rgb(54, 55, 55) inset;
+  cursor: pointer;
+}
+#graph #html {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 10vh;
+  margin: 2.5vw 0;
+  background-color: #DE004A;
+  box-shadow: 1px 2px 3px rgb(45, 45, 45);
+}
+#graph #css {
+  position: absolute;
+  top: 20vh;
+  width: 0;
+  height: 10vh;
+  margin: 2.5vw 0;
+  background-color: #118BAB;
+  box-shadow: 1px 2px 3px rgb(45, 45, 45);
+}
+#graph #js {
+  position: absolute;
+  top: 40vh;
+  width: 0;
+  height: 10vh;
+  margin: 2.5vw 0;
+  background-color: #E3D317;
+  box-shadow: 1px 2px 3px rgb(45, 45, 45);
+}
+/*--------------------------------------------------message-------------------*/
+#message {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(222, 222, 222);
+  z-index: 20;
+}
+#message h2 {
+  position: absolute;
+  top: 35vh;
+  left: 10vw;
+  padding: 0;
+  margin: 0;
+  font-size: 6vw;
+  text-align: center;
+  margin: 0;
+}
+#message p {
+  position: absolute;
+  top: 25vh;;
+  left: 45vw;
+  margin-right: 5vw;
+  line-height: 2.0;
+  font-size: 1.5vw;
+}
+/*-------------------------------------------------------foot-----------------*/
+#foot {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+}
